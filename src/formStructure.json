@@ -1,0 +1,55 @@
+{
+    "steps": [
+      {
+        "label": "Step 1",
+        "fields": [
+          {
+            "id": "firstName",
+            "label": "First Name",
+            "type": "textarea",
+            "required": true
+          },
+          {
+            "id": "lastName",
+            "label": "Last Name",
+            "type": "text",
+            "required": true
+          }
+        ]
+      },
+      {
+        "label": "Step 2",
+        "fields": [
+          {
+            "id": "email",
+            "label": "Email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "id": "phone",
+            "label": "Phone",
+            "type": "tel",
+            "required": false
+          }
+        ]
+      },
+      {
+        "label": "Step 3",
+        "fields": [
+          {
+            "id": "address",
+            "label": "Address",
+            "type": "text",
+            "required": true
+          },
+          {
+            "id": "pincode",
+            "label": "Pincode",
+            "type": "number",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
