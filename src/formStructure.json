@@ -6,7 +6,7 @@
           {
             "id": "firstName",
             "label": "First Name",
-            "type": "textarea",
+            "type": "text",
             "required": true
           },
           {

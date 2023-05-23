@@ -30,16 +30,9 @@ const DynamicFormStepper = () => {
     return currentFields.map((field) => (
       <div key={field.id} style={{padding:"20px"}}>
         <label htmlFor={field.id}>{field.label} : </label> &nbsp; &nbsp;&nbsp;
-        <input
-          type={field.type}
-          id={field.id}
-          required={field.required}
-          value={formValues[field.id] || ''}
-          onChange={(e) => handleFieldChange(field.id, e.target.value)}
-        />
+   
 
-
-{/* <TextField
+<TextField
            type={field.type}
           id={field.id}
           required={field.required}
@@ -47,7 +40,7 @@ const DynamicFormStepper = () => {
           label={field.label}
           onChange={(e) => handleFieldChange(field.id, e.target.value)}
       
-      /> */}
+      />
     
       </div>
     ));
